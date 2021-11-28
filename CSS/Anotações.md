@@ -13,6 +13,22 @@ External CSS:
         <style> @import url("/css/styles.css"); </style>
     </head>
 ```
-**Inline CSS**
-adiciona o style diretamente na tag do arquivo HTML, o método não é indicado por poluir o código e não poder ser reaproveitado em outro momento, logo, seria necessário aicionar elementos CSS em todas as tags HTML, segue exemplos de *_inline_* CSS:
+**Inline CSS:**  
+adiciona o style diretamente na tag do arquivo HTML, o método não é indicado por poluir o código e não poder ser reaproveitado em outro momento, logo, seria necessário aicionar elementos CSS em todas as tags HTML, segue exemplo de *_inline_* CSS:
  * `<p style="color: red;> paragrafo vermelho!"</p>`
+**INTERNAL CSS:**  
+adiciona o style dentro da tag HTML head, é útil quando não existe uma grande quantidade de elementos CSS para serem adicionados, também não pode ser reaproveitado em outras páginas. Exemplo de HTML com CSS interno:
+```
+<head>
+    <style>
+        h1 {
+            color: green;
+            background-color: blue;
+        }
+
+        h2 {
+            color: yellow;
+        }
+    </style>
+</head>
+```
