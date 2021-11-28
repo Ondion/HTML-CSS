@@ -4,11 +4,11 @@ External CSS:
  A vantagem de usar o método externo é a facilidade de "linkar" varias páginas HTML em um único arquivo CSS. Lembrando, também, que é possivel usar diversos arquivos CSS em um mesmo projeto.
   *  Médoto *_@import_*, usado para anexar diversas páginas CSS em apenas uma que será usada no projeto, exemplo: 
 ```
-  **styles.css**
+  styles.css
   @import url('/styles/layout.css');
   @impor url('/styles/buttons.css');
 
-  **index.html**
+  index.html
     <head>
         <style> @import url("/css/styles.css"); </style>
 ```
