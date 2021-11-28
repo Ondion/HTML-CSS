@@ -11,4 +11,7 @@ External CSS:
   index.html
     <head>
         <style> @import url("/css/styles.css"); </style>
+    </head>
 ```
+
+ * Método 3
