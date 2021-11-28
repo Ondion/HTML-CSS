@@ -42,12 +42,11 @@ O comando para comentário é: /* Escreva aqui o comentário */
 
 # Seletores
 Segue a lista de seletores usados no CSS:
- * Type Selector - Usado diretamente nas tags do HTML, exemplo: <h1>. Ao usar o type selector, todas as tags de mesmo nome irão sobre a modificação adicionada no bloco.
+ * Type Selector - Usado diretamente nas tags do HTML, exemplo:`<h1>` Ao usar o type selector, todas as tags de mesmo nome irão sobre a modificação adicionada no bloco.
  * Universal Selector - Usado para aplicar um estilo em todas as tags HTML do documento. A sintaxe é: *{}
- * Class Selector - Adiciona estilo a tag por meio de classes previamente adicionadas, Exemplo: <p class="classe_css">. No arquivo CSS: .classes_CSS{}. É possivel também usar multiplas classes em uma mesma tag, Exemplo: <p class="classe_css" "outra_CSS">
- * ID Selector  - É usado de forma individual por tag, deve sempre ser único no HTML, exemplo: <p id="id_css"> e no arquivo style: #id_css{}. Outro ponto, fora do CSS, o ID pode ser usado para "linkar" conteúdo dentro da página, exemplo:
+ * Class Selector - Adiciona estilo a tag por meio de classes previamente adicionadas, Exemplo: `<p class="classe_css">`. No arquivo CSS: .classes_CSS{}. É possivel também usar multiplas classes em uma mesma tag, Exemplo: `<p class="classe_css"` "outra_CSS">
+ * ID Selector  - É usado de forma individual por tag, deve sempre ser único no HTML, exemplo: `<p id="id_css"> `e no arquivo style: #id_css{}. Outro ponto, fora do CSS, o ID pode ser usado para "linkar" conteúdo dentro da página, exemplo:
  ``` 
 <a href="#exemplo">Link para outro ponto da página</a>
 <section id="exemplo">O link vai parar aqui!</section>
  ```
- 
