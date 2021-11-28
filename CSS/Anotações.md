@@ -6,12 +6,13 @@ External CSS:
 ```
   styles.css
   @import url('/styles/layout.css');
-  @impor url('/styles/buttons.css');
+  @import url('/styles/buttons.css');
 
   index.html
     <head>
         <style> @import url("/css/styles.css"); </style>
     </head>
 ```
-
- * Método 3
+**Inline CSS**
+adiciona o style diretamente na tag do arquivo HTML, o método não é indicado por poluir o código e não poder ser reaproveitado em outro momento, logo, seria necessário aicionar elementos CSS em todas as tags HTML, segue exemplos de *_inline_* CSS:
+ * `<p style="color: red;> paragrafo vermelho!"</p>`
