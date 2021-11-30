@@ -1,3 +1,24 @@
+/*  */
+
+body{
+    color:rgb(75, 75, 75);
+}
 img{
     width: 300px; /* Redimencionando a imagem para 300px*/
+}
+header{
+    background-color: blue;
+}
+.projects{
+    background:slategrey;
+}
+a:link{
+    color: springgreen;
+}
+a:visited{
+    color: red;
+    font-size: 80px;
+}
+a:focus{
+    color: purple;
 }
