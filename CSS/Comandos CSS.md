@@ -4,6 +4,13 @@
 Comandos relacionados com a formatação de texto, linhas e cores.    
 <br>
 
+**!important** - Usado para que o elemento CSS tenha precedência máxima na renderização. 
+```
+span{
+    font-family: <parâmetro> !important; 
+}
+```
+
 **font-family** - Especifica qual a fonte do texto exibido no browser
 ```
 span{
@@ -90,7 +97,18 @@ span{
 Parâmetros:
     blue; - nome por extenso de algumas cores.
     rgb(200, 200, 200); - Cor pelo formato rgb.
+    rgb(3%, 59%, 100%); - Também pode ser usado em porcentagem.
     ffffff; - representação hexadecimal das cores.
+```
+
+**hsla** - Altera os valores de : matiz, saturação, brilho e opacidade.  
+```
+span{
+    hsla: <parâmetro>; 
+}
+Parâmetros:
+    hsl(270, 60% 70%) - Alteração dos atributos.
+    hsla(270, 60% 70%, 0.7) - a opacidade também pode ser declarada em porcentagem .
 ```
 
 **list-style-type** - Altera o marcador das listas em html.  
@@ -122,6 +140,7 @@ span{
 }
 Parâmetros:
     block; - altera o modo para bloco.
+    inline; - altera o modo para em linha.
     inline-block; - comportamento hibrido, alinhados em linha com demais funções de bloco.
 ```
 

@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(220, 220, 220);
+}
+
+img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+header {
+  background-color: aqua;
+}
+
+.project {
+  background-color: antiquewhite;
+}
+
+.work-experience {
+  background: blueviolet;
+}
+
+footer {
+  background-color: brown;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+a:link { /*Adicionando cores a links não visitados */
+  color: green;
+}
+
+a:visited {
+  color: gold;
+}
+
+a:focus {
+  color: red;
+}
+
+a:hover {
+  font-size: x-large;
+  color: green;
+}
+
+a:active {
+  color: wheat;
+  /* Comando para quando clicar e segurar. */
+}
+
+.content {
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
